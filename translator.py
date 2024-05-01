@@ -12,7 +12,7 @@ def create_prompt(headlines):
     return prompt
 
 
-
+#Add the API key here
 os.environ["API_KEY"] = ""
 openai.api_key = os.getenv("API_KEY")
 
